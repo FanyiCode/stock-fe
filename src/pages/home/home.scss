@@ -1,0 +1,5 @@
+page-home {
+    .plates_list.row:nth-child(odd) { background-color: #fff;}  
+    .plates_list .row:nth-child(even) { background-color: #e8eeff;}
+    .list_head{ line-height: 30px;background-color: #488aff;color: #fff;text-align: center;}
+}

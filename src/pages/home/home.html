@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="plates_list">
+        <ion-grid class="list_grid">
+            <!-- <ion-row>
+              <ion-col col-12>{{sysdata.identify_res[0].value}}</ion-col>
+            </ion-row> -->
+            <ion-row class="list_head">
+              <ion-col><div>id</div></ion-col>
+              <ion-col><div>companies</div></ion-col>
+              <ion-col><div>createTime</div></ion-col>
+              <ion-col><div>delta</div></ion-col>
+              <ion-col><div>inAmount</div></ion-col>
+              <ion-col><div>industry</div></ion-col>
+              <ion-col><div>leadDelta</div></ion-col>
+              <ion-col><div>leadNow</div></ion-col>
+              <ion-col><div>leadStock</div></ion-col>
+              <ion-col><div>outAmount</div></ion-col>
+              <ion-col><div>pure</div></ion-col>
+              <ion-col><div>rank</div></ion-col>
+            </ion-row>
+             <ion-row *ngFor='let item of plates'>
+              <ion-col ><div>{{item.id}}</div></ion-col>
+              <ion-col ><div>{{item.companies}}</div></ion-col>
+              <ion-col ><div>{{item.createTime| date }}</div></ion-col>
+              <ion-col ><div>{{item.delta}}</div></ion-col>
+              <ion-col ><div>{{item.inAmount}}</div></ion-col>
+              <ion-col ><div>{{item.industry}}</div></ion-col>
+              <ion-col ><div>{{item.leadDelta}}</div></ion-col>
+              <ion-col ><div>{{item.leadNow}}</div></ion-col>
+              <ion-col ><div>{{item.leadStock}}</div></ion-col>
+              <ion-col ><div>{{item.outAmount}}</div></ion-col>
+              <ion-col ><div>{{item.pure}}</div></ion-col>
+              <ion-col ><div>{{item.rank}}</div></ion-col>
+            </ion-row> 
+          </ion-grid>
+</ion-content>
