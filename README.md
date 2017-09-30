@@ -8,9 +8,7 @@ $ ionic serve
 ```
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ ionic cordova platform add ios/Android
+$ ionic cordova run ios/Android
 ```
-
-Substitute ios for android if not on a Mac.
 
